@@ -15,7 +15,8 @@ body {
 
 .section2,
 .section3,
-.section4 {
+.section4,
+.section6 {
   width: 100%;
 
 }
@@ -30,7 +31,8 @@ body {
 }
 
 .section2 > div,
-.section3 > div {
+.section3 > div,
+.section6 > div {
   width: calc(33% - 20px);
   float: left;
   padding: 10px;
@@ -44,8 +46,11 @@ body {
 
 .section1 > h1,
 .section5 > h1 {
-  background-color: pink;
   font-size: xxx-large;
   text-align: center;
   padding-top: 30px;
+}
+
+.section6 > div {
+  text-align: left;
 }
